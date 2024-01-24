@@ -2,17 +2,15 @@
 
 import 'dart:convert';
 import 'package:flutter/foundation.dart';
+import '../../domain/entities/api_constants.dart';
 import '../models/postApi_model.dart';
 import 'package:http/http.dart' as http;
 
 class ApiRequests {
-  static const _baseUrl = "https://jsonplaceholder.typicode.com";
-  static const _endPoint = "/posts";
-
   List<PostApiModel> postsList = [];
   Future<List<PostApiModel>> postApiMethod() async {
     try {
-      Uri postUri = Uri.parse(_baseUrl + _endPoint);
+      Uri postUri = Uri.parse(ApiConstants.apiUrl);
       var response = await http.get(postUri);
       var data = jsonDecode(response.body.toString());
       if (kDebugMode) {

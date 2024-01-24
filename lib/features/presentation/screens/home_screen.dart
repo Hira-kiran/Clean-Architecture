@@ -2,6 +2,7 @@ import 'package:clean_architecture/features/data/repo/post_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../data/models/postApi_model.dart';
+import '../providers/post_api_provider.dart';
 
 class HomeScreen extends ConsumerStatefulWidget {
   const HomeScreen({super.key});

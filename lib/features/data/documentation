@@ -8,4 +8,3 @@
 .. Also if you don't have any Api calls in your project, You can also make your local database part in this layer.
 .. We can say the data layer is WWW layer.
 .. We can define models also in this layer.
-

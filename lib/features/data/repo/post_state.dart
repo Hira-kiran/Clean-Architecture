@@ -4,9 +4,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../datasource/postApi.dart';
 import '../models/postApi_model.dart';
 
-final postProvider =
-    StateNotifierProvider<PostsNotifier, PostState>((ref) => PostsNotifier());
-
 @immutable
 abstract class PostState {}
 

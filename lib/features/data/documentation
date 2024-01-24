@@ -1,0 +1,11 @@
+
+******************* Data Layer ************************
+
+.. Data is the core layer
+.. In this layer the API call are being made, Network work are being done.
+.. In this we have folders that are (Models, Repo and Datasources).
+.. In dataSource folder we Call our APIs, this datasouce can be local and remote.
+.. Also if you don't have any Api calls in your project, You can also make your local database part in this layer.
+.. We can say the data layer is WWW layer.
+.. We can define models also in this layer.
+

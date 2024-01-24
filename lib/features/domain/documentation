@@ -1,0 +1,12 @@
+
+******************* Domain Layer ************************
+
+.. In this layer we make entities, usecases, Repo
+.. Usecases are the functions that call our repositioes funtions
+.. Entities are the models. It is working for bussines/ domain layer
+.. It is a kind of bridge between data layer and presentation layer. 
+.. We also called this is a bussines layer. 
+.. It takes data from presentation layer and pass that data to data layer
+
+
+
